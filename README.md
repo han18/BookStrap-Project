@@ -1,2 +1,2 @@
 # BookStrap-Project
-Per Scholas Lab Work For BootStraps 
+Per Scholas Lab Work For Bootstrap
