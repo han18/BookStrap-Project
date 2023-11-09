@@ -1,5 +1,16 @@
-.box {
-  background-color: aqua;
+/* .box {
+  background-color: rgb(202, 224, 224);
   border: 1px solid blue;
-  height: 50px;
+  height: 800px;
+  display: flex;
 }
+
+.inner-box {
+  background-color: rgb(218, 213, 218);
+  border: 1px solid rgb(5, 5, 48);
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* middle content css starts here  */
