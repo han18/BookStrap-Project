@@ -19,7 +19,7 @@
     ></script>
     <title>User</title>
   </head>
-  <body>
+  <body style="background-color: rgb(241, 240, 240)">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-info py-2">
         <div class="container-fluid">
@@ -27,6 +27,113 @@
         </div>
       </nav>
     </div>
-    <div></div>
+    <!-- navbar ends here -->
+    <div class="container w-100 p-3">
+      <div class="d-flex">
+        <div class="card" style="width: 20rem; margin: 50px; padding: 20px">
+          <img
+            src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            class="card-img-top rounded-pill"
+            alt="college girl"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Amanda James</h5>
+            <p class="card-text">I love to learn new skills each day</p>
+            <a href="index.html" class="btn btn-primary">Admin Page</a>
+          </div>
+        </div>
+        <ul class="list-group w-50" style="margin-top: 110px; padding: 10px">
+          <li class="list-group-item active">Personal Info</li>
+          <li class="list-group-item">Amanda James</li>
+          <li class="list-group-item">Biology Student</li>
+          <li class="list-group-item">New York, NY</li>
+          <li class="list-group-item">Undergraduate</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bottom content here -->
+    <div class="container w-100 p-3">
+      <div class="d-flex">
+        <div class="container px-5">
+          <div class="row gx-5">
+            <div class="col">
+              <div class="p-3 border bg-light">
+                Activity
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    Homework Completed 25%
+                  </div>
+                </div>
+                <br />
+                <div class="progress">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 25%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    Studied 10%
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-warning"
+                      role="progressbar"
+                      style="width: 75%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second left bar content  -->
+            <div class="col">
+              <div class="p-3 border bg-success">
+                <h4>Completed Task</h4>
+                <select
+                  class="form-select"
+                  aria-label="Disabled select example"
+                >
+                  <option selected>Assays</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <br />
+                <select
+                  class="form-select"
+                  aria-label="Disabled select example"
+                >
+                  <option selected>Resume</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <br />
+                <select
+                  class="form-select"
+                  aria-label="Disabled select example"
+                >
+                  <option selected>Math</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
