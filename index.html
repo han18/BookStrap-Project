@@ -88,8 +88,8 @@
       </nav>
     </div>
     <!-- this is the full body content container after the navbar. it will be separated into 3 boxes each contain content-->
-    <div class="container">
-      <div class="d-flex justify-content-evenly">
+    <div class="container justify-content-evenly">
+      <div class="d-flex">
         <!-- this is the left box containing its own box content -->
         <div class="box" style="width: 250px; height: 800px">
           <div class="inner-box" style="margin-top: 20px">
@@ -145,7 +145,55 @@
               ></div>
             </div>
           </div>
-          <div class="inner-box" style="width: 200px"></div>
+          <!-- third inner section of the first box  -->
+          <div class="inner-box" style="width: 200px; margin-top: 20px">
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckDefault"
+              />
+              <label class="form-check-label" for="flexSwitchCheckDefault"
+                >Homework Submission</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+              <label class="form-check-label" for="flexSwitchCheckChecked">
+                Documents</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckDisabled"
+                disabled
+              />
+              <label class="form-check-label" for="flexSwitchCheckDisabled"
+                >Late Work</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckCheckedDisabled"
+                checked
+                disabled
+              />
+              <label
+                class="form-check-label"
+                for="flexSwitchCheckCheckedDisabled"
+                >Exams</label
+              >
+            </div>
+          </div>
         </div>
         <!-- left box ends here -->
         <!-- ---------------------------------------------------- -->
