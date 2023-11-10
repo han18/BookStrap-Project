@@ -1,16 +1,5 @@
-/* .box {
-  background-color: rgb(202, 224, 224);
-  border: 1px solid blue;
-  height: 800px;
-  display: flex;
+@media (min-width: 100px) {
+  .container {
+    max-width: 170px;
+  }
 }
-
-.inner-box {
-  background-color: rgb(218, 213, 218);
-  border: 1px solid rgb(5, 5, 48);
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-} */
-
-/* middle content css starts here  */
